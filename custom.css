@@ -27,13 +27,14 @@ body{
   align-items: center;
   min-height: 100vh;
   padding: 16px;
+  background-size: 100vw 40vh;
 }
 
 .order-summery-container{
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   background-color:#ffffff;
   border-radius:10px;
-  width: 30%;
+  width: 350px;
 }
 
 .order-summery-header-container{
@@ -128,9 +129,7 @@ body{
 @media only screen and (max-width: 768px) {
   .main-container{
     background-image: url("./images/pattern-background-mobile.svg");
-  }
-
-  .order-summery-container{
-    width: 100%;
+    background-size: 100vw 40vh;
+    padding:0 5rem;
   }
 }
