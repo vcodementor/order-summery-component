@@ -1,7 +1,7 @@
 # order-summery-component
-# Frontend Mentor - Order Summery Component
+# Frontend Mentor - Order summary card
 
-![Design preview for the Launch countdown timer coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Order summary card coding challenge](./design/desktop-preview.jpg)
 
 **Have fun building!** 🚀
 https://vcodementor.github.io/order-summery-component/
