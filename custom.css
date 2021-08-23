@@ -1,0 +1,136 @@
+.bg-primary-light{
+  background-color: hsl(225, 100%, 94%);
+}
+.text-primary-light{
+  color: hsl(225, 100%, 94%);
+}
+
+.bg-primary-dark{
+  background-color: hsl(245, 75%, 52%);
+}
+
+.text-primary-dark{
+  color: hsl(245, 75%, 52%);
+}
+
+body{
+  margin:0px !important;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.main-container{
+  background-image: url("./images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 16px;
+}
+
+.order-summery-container{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  background-color:#ffffff;
+  border-radius:10px;
+  width: 30%;
+}
+
+.order-summery-header-container{
+  border-radius: 10px 10px 0 0 !important;
+}
+.order-summery-header-img-container{
+  border-radius: 10px 10px 0 0 !important;
+  width: 100%;
+}
+
+.order-summery-body-container{
+  font-size: 16px;
+  padding: 1rem 2.5rem;
+  text-align: center;
+}
+
+.order-summery-description{
+  color: #707174;
+}
+
+.order-summery-price-detail-container{
+  display: flex;
+  align-items: center;
+  padding:16px;
+  margin: 1rem 0;
+  border-radius: 10px;
+  background-color: hsl(225, 100%, 98%);
+}
+
+.order-summery-price-icon-container{
+  padding: 0 0.5rem;
+  width:  10%;
+}
+
+.order-summery-price-container{
+  padding: 0 0.5rem;
+  width: 70%;
+  text-align: left;
+
+} 
+.order-summery-price-container h4{
+   margin : 0px; 
+}
+.order-summery-price-container p{
+  margin : 5px 0; 
+  color: #707174;
+}
+
+.order-summery-price-change-container{
+  padding:0.5rem;
+  text-align: end;
+  width: 20%;
+}
+
+.order-process-btn{
+  display: block;
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 700;
+    color: #ffffff;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0.5rem 0;
+    -moz-box-shadow: -1px 4px 10px #000000;
+    -webkit-box-shadow: -1px 4px 10px #000000;
+     box-shadow: -1px 4px 10px #000000;
+}
+
+.order-cancel-btn{
+  display: block;
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 700;
+  background-color: #ffffff;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 0.5rem 0;
+  color: #707174;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+
+
+@media only screen and (max-width: 768px) {
+  .main-container{
+    background-image: url("./images/pattern-background-mobile.svg");
+  }
+
+  .order-summery-container{
+    width: 100%;
+  }
+}
